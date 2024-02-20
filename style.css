@@ -1,0 +1,110 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+}
+@font-face {
+    font-family: "font";
+    src: url(/font/OpenSans-Light.ttf);
+}
+@font-face {
+    font-family: "bebas";
+    src: url(/font/BebasNeue-Regular.ttf);
+}
+.parent {
+    display: flex;
+}
+.sidebar {
+    position: fixed;
+    width: 20%;
+    height: 100%;
+    background-color: green;
+    border-right: 2px solid white;
+}
+.sidebar-menu {
+    position: absolute;
+    top: 50%;
+    transform:translateY(-50%);
+}
+.sidebar-img {
+    text-align: center;
+   
+}
+.sidebar-img img {
+    width: 80%;
+    border-radius: 50%;
+    border: 8px solid black;
+}
+.sidebar-sobre a {
+    color: white;
+    opacity: 0.4;
+    text-decoration: none;
+    margin-top: 20px;
+    text-align: center;
+    display: block;
+    font-family: "font";
+}
+
+.sidebar-sobre .selected {
+    opacity: 1;
+}
+.center {
+    width: 80%;
+    height: 100%;
+    position: absolute;
+    left: 20%;
+    background-color: #211f1f;
+}
+.center h2 {
+    color: white;
+    font-family: "bebas";
+    margin-top: 20%;
+    margin-left: 2%;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.center h2 span {
+    color: green;
+    font-family: "bebas";
+    font-size: 50px;
+    margin-left: 0%;
+
+}
+.center p {
+    color: green;
+    font-family: "font";
+    font-size: 15px;
+    margin-left: 2%;
+    margin-top: 50px;
+    margin-right: 3%;
+
+}
+.center h3 {
+    color: green;
+    font-family: "font";
+    font-size: 20px;
+    margin-left: 2%;
+    
+}
+.center h3 span {
+    color: white;
+}
+.icons img {
+    width: 2%;
+    background-color: white;
+    border-radius: 50%;
+    margin-top: 1%;
+    margin-left: 2%;
+    
+}
+.insta img {
+    margin-top: 2%;
+    border-radius: 40%;
+}
+.youtube img {
+    border-radius: 20%;
+    color: black ;
+}
